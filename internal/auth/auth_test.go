@@ -12,7 +12,7 @@ func TestGetAPIKey(t *testing.T) {
 
 	apiKey, err := GetAPIKey(header)
 
-	if apiKey != "sampleKey789" {
+	if apiKey != "sampleKey123" {
 		t.Errorf("expected 'ApiKey sampleKey123', got '%s'", apiKey)
 	}
 
